@@ -1,3 +1,30 @@
-.content{
-    background: greenyellow;
+header {
+    font-size: 0;
+    background-image: url("../assets/header.jpg");
+    background-size: cover;
+    height: 600px;
+    position: relative;
+    z-index: 1;
+}
+
+header .content,
+header .hand-image {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+header p {
+    font-size: 16px;
+}
+
+.hand-image {
+    position: relative;
+}
+
+.hand-image img {
+    width: 439px;
+    position: absolute;
+    top: 0;
+    z-index: 20;
 }
