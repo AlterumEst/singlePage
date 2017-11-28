@@ -1,10 +1,15 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
 header {
     font-size: 0;
     background-image: url("../assets/header.jpg");
     background-size: cover;
     height: 600px;
-    position: relative;
-    z-index: 1;
+    border-top: 15px solid #2ecc71;
 }
 
 header .content,
@@ -12,6 +17,32 @@ header .hand-image {
     display: inline-block;
     width: 50%;
     vertical-align: top;
+}
+
+.header .hand-image {
+    height: 100%;
+}
+
+.header .content {
+    position: relative;
+    height: 100%;
+}
+
+.redes {
+    padding: 0;
+}
+
+.redes li {
+    display: inline-block;
+    padding-right: 20px;
+
+}
+
+header .content-info {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
 }
 
 header p {
@@ -25,6 +56,6 @@ header p {
 .hand-image img {
     width: 439px;
     position: absolute;
-    top: 0;
-    z-index: 20;
+    bottom: 0;
+    left: 20px;
 }
