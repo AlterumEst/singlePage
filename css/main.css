@@ -2,6 +2,7 @@ html,
 body {
     padding: 0;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -30,21 +31,40 @@ header .hand-image {
 
 .redes {
     padding: 0;
+
 }
 
 .redes li {
     display: inline-block;
-    padding-right: 20px;
+    margin-right: 20px;
 
 }
-
+.redes li:hover{
+    opacity: 0.5;
+}
 header .content-info {
     position: absolute;
     top: 50%;
     right: 20px;
     transform: translateY(-50%);
+    
+}
+.redes .windows-icon{
+    margin-right: 0;
+    
 }
 
+header .content-info p {
+    color: white;
+    padding-left: 120px;
+
+
+}
+
+header .content{
+    text-align: right;
+
+}
 header p {
     font-size: 16px;
 }
